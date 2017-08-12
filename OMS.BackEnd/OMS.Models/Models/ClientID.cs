@@ -15,7 +15,7 @@ namespace OMS.Models.Models
         }
         public DbSet<Student> Students { get; set; }
         public DbSet<Standard> Standards { get; set; }
-        //public DbSet<StudentAddress> StudentAddress { get; set; }
+        public DbSet<StudentAddress> StudentAddress { get; set; }
 
         //    protected override void OnModelCreating(DbModelBuilder modelBuilder)
         //    {

@@ -14,10 +14,10 @@ namespace OMS.Models
         {
             using (var client = new ClientID())
             {
-                Student stud = new Student() { StudentName = "New Student2" };
-                client.Students.Add(stud);
-                client.SaveChanges();
-                Console.ReadKey();
+            //    Student stud = new Student() { StudentName = "New Student2" };
+              //  client.Students.Add(stud);
+             //   client.SaveChanges();
+             //   Console.ReadKey();
                
             }
         }

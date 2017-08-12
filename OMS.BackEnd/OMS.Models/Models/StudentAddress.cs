@@ -10,12 +10,12 @@ namespace OMS.Models.Models
 {
     class StudentAddress
     {
-       
-        
-            //[Key, ForeignKey("Student")]
-            public int StudentId { get; set; }
 
-            public string Address1 { get; set; }
+
+        [Key, ForeignKey("Student")]
+        public int StudentAddressId { get; set; }
+
+        public string Address1 { get; set; }
             public string Address2 { get; set; }
             public string City { get; set; }
             public int Zipcode { get; set; }
